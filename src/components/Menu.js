@@ -11,10 +11,10 @@ const MenuItems = ({ menuItems }) => {
 
 export default MenuItems;
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const typeFruit = [];
-for (i = 0; i < fruits.length; i++) {
-  if (!typeFruit.includes(fruits[i])) {
-    typeFruit.push(fruits[i]);
-  }
-}
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const typeFruit = [];
+// for (i = 0; i < fruits.length; i++) {
+//   if (!typeFruit.includes(fruits[i])) {
+//     typeFruit.push(fruits[i]);
+//   }
+// }
