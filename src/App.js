@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import Header from "./components/Header";
 import MenuItems from "./components/Menu";
-
+// import DryAssPasta from "./Images/DryAssPasta.jpg";
 function App() {
   const [menuItems, setMenuItems] = useState([
     {

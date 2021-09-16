@@ -8,7 +8,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(3, 31, 3);
+  letter-spacing: 0.55px;
+  line-height: 1.5;
 }
 
 .container {
@@ -21,7 +23,7 @@ body {
   border-width: px;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 1px 10px 10px 5px #1e5220;
+  box-shadow: 0px 2px 5px 2px #166b18;
 }
 
 Header {
@@ -30,7 +32,7 @@ Header {
   text-align: center;
   margin-bottom: 20px;
   background: #4a7960;
-  margin: 5px;
+  margin: 3px;
   background-image: linear-gradient(to bottom right, darkgreen, rgb(0, 200, 0));
   color: #ffffff;
   border: 1px solid rgb(0, 0, 0);
@@ -41,7 +43,9 @@ Header {
   -webkit-text-stroke-color: rgb(0, 0, 0);
   letter-spacing: 0.55px;
 }
-
+h4 {
+  font-size: large;
+}
 h3 {
   justify-content: space-between;
   text-align: center;
@@ -51,7 +55,7 @@ h3 {
 .menuItem {
   background: #f4f4f4;
   margin: 5px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   cursor: pointer;
 }
 
@@ -65,21 +69,23 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
-/* .btn {
-  display: inline-block;
+.btn {
+  align-content: right;
   background: #000;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 0px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
-} */
+  float: right;
+}
 
-/* .btn:focus {
+.btn:focus {
   outline: none;
 }
 
@@ -90,4 +96,4 @@ footer {
 .btn-block {
   display: block;
   width: 100%;
-} */
+}
